@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'toy_simulator'
+
+puts "Please input commands (press CRTL+D to finish)"
+
+ToySimulator::ConsoleAdapter.run
